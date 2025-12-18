@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background-image: url(mini-hatch-1.jpg);
+    opacity: 1;
+    background-repeat: no-repeat;
+}
+
+.header {
+    background-color: #131921;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    color: #ff9900;
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.header input {
+    flex: 1;
+    padding: 8px;
+}
+
+.header button {
+    padding: 8px 12px;
+    background-color: #ff9900;
+    border: none;
+    cursor: pointer;
+}
+
+.navbar {
+    background-color: #232f3e;
+    padding: 10px;
+}
+
+.navbar a {
+    color: white;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.banner {
+    background-color: #f3f3f3;
+    padding: 40px;
+    text-align: center;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.card {
+    width: 200px;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+}
+
+.card button {
+    margin-top: 10px;
+    padding: 6px 10px;
+    background-color: #ff9900;
+    border: none;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #131921;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+header {
+flex-direction: column;
+gap: 10px;
+text-align: center;
+}
+.search-box input {
+width: 90%;
+}
+.products {
+margin: 10px;
+}
+.card {
+width: 90%;
+}
+
+
+/* Tablet View */
+@media (min-width: 600px) {
+header {
+flex-direction: row;
+text-align: left;
+}
+.search-box input {
+width: 300px;
+}
+.card {
+width: 45%;
+}
+}
+
+
+/* Desktop View */
+@media (min-width: 992px) {
+.card {
+width: 200px;
+}
