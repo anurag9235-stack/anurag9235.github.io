@@ -5,8 +5,6 @@
     font-family: Arial, sans-serif;
 }
 
-
-
 .header {
     background-color: #131921;
     padding: 10px;
@@ -115,4 +113,5 @@ width: 45%;
 @media (min-width: 992px) {
 .card {
 width: 200px;
+}
 }
